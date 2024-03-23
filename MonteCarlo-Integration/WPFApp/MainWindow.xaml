@@ -1,0 +1,19 @@
+﻿<Window x:Class="MCarlo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MCarlo"
+        mc:Ignorable="d"
+        Title="Monte Carlo method: calculation of the integral" Width="758" Height="308" MouseWheel="Window_MouseWheel">
+    <Grid Margin="5">
+        <StackPanel>
+            <WrapPanel VerticalAlignment="Center">
+                <Label Content="Math Integration is 1.38242866649023:" Width="300"/>
+                <Label Content="Monte Carlo method:"/>
+                <Label x:Name="lbMCarlo" Content="0" Width="200" HorizontalAlignment="Left" FontWeight="Bold"/>
+            </WrapPanel>
+            <local:DrawingVisualClass x:Name="g" HorizontalAlignment="Center" VerticalAlignment="Center" Width="725" Background="Black" Height="260" MouseMove="g_MouseMove"/>
+        </StackPanel>
+    </Grid>
+</Window>
