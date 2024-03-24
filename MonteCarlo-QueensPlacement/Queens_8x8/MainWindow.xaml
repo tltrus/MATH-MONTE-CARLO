@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Annealing method - Queens" Height="520" Width="430">
+    <Grid>
+        <StackPanel>
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button x:Name="btnStart" Content="Start" Margin="5" Padding="5" Width="150" Click="btnStart_Click"/>
+                <Button x:Name="btnClear" Content="Clear" Margin="5" Padding="5" Width="150" Click="btnClear_Click" />
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Result H(s):" VerticalAlignment="Center"/>
+                <Label x:Name="lbH" Content="0" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Label Content="Temperature T:" VerticalAlignment="Center"/>
+                <Label x:Name="lbT" Content="0" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            </WrapPanel>
+            <local:DrawingVisualClass x:Name="g" Height="400" Width="400" Background="Black" Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>
