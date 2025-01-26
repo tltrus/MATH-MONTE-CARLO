@@ -9,6 +9,17 @@ C# Monte Carlo algorithm for calculation of the integral
 
 ![image](https://github.com/tltrus/MATH-MONTE-CARLO/assets/77125487/d58a4495-fd52-4ede-abff-f423a4a9934a)
 
+
+# MonteCarlo-Percolation
+
+C# Percolation algorithm with **Weighted Quick Union With Path Compression**
+
+- Youtube:
+- Rutube:
+
+![image](https://github.com/user-attachments/assets/bde02621-6f56-47cb-9281-d887b7df638c)
+
+
 # MonteCarlo-Queens placement
 
 C# Monte Carlo algorithm for Queen placement
