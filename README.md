@@ -14,7 +14,7 @@ C# Monte Carlo algorithm for calculation of the integral
 
 C# Percolation algorithm with **Weighted Quick Union With Path Compression**
 
-- Youtube:
+- Youtube: https://youtu.be/ryHNV1LMWps
 - Rutube: https://rutube.ru/video/ad6ab7e57c16ad6577fe797b7312f64c/
 
 ![image](https://github.com/user-attachments/assets/bde02621-6f56-47cb-9281-d887b7df638c)
